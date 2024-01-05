@@ -4,6 +4,32 @@ Technical assessment - take home
 
 # Healthcare App
 
+## Healthcare Backend
+
+### Prerequisites
+
+- Visual Studio or Visual Studio Code installed
+- .NET 5 SDK installed ([Download .NET 5](https://dotnet.microsoft.com/download/dotnet/5.0))
+
+### Back-End (HealthcareBackendVS)
+
+1. Open the HealthcareBackendVS solution in Visual Studio.
+2. Set the Startup project to HealthcareBackendVS.
+3. Ensure your SQL Server database is configured using SQL Server Management Studio (SSMS). If not, follow these steps:
+   - Open the Package Manager Console.
+   - Run the following commands:
+     ```bash
+     Update-Database
+     ```
+   - This will apply the database migrations and create the necessary tables.
+
+4. Build and run the project.
+
+The back-end API will be accessible at:
+- Base URL: `https://localhost:44379`
+
+---
+
 ## Front-end Setup
 
 ### Prerequisites
@@ -34,33 +60,10 @@ Technical assessment - take home
 
 ---
 
-## Healthcare Backend
-
-### Prerequisites
-
-- Visual Studio or Visual Studio Code installed
-- .NET 5 SDK installed ([Download .NET 5](https://dotnet.microsoft.com/download/dotnet/5.0))
-
-### Back-End (HealthcareBackendVS)
-
-1. Open the HealthcareBackendVS solution in Visual Studio.
-2. Set the Startup project to HealthcareBackendVS.
-3. Ensure your SQL Server database is configured using SQL Server Management Studio (SSMS). If not, follow these steps:
-   - Open the Package Manager Console.
-   - Run the following commands:
-     ```bash
-     Update-Database
-     ```
-   - This will apply the database migrations and create the necessary tables.
-
-4. Build and run the project.
-
-The back-end API will be accessible at:
-- Base URL: `https://localhost:44379`
-
----
-
 ### Note:
 
 - Ensure that the backend server is running before accessing the front-end application.
 - In case of any issues, refer to the documentation or project-specific instructions for troubleshooting.
+
+  ---
+![image](https://github.com/andryuha77/HCI_assessment-/assets/14886116/6ea16981-f781-48ae-bba1-557a9a3d58d4)
